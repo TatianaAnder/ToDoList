@@ -34,3 +34,4 @@ yarn-error.log*
 # Optional: ignore package-lock or yarn.lock if using only one
 # yarn.lock
 # package-lock.json
+jsconfig.json
