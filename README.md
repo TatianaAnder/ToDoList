@@ -1,44 +1,43 @@
 # To Do List
 
-Простое веб-приложение для управления списком задач, написанное на чистом JavaScript, HTML и CSS — без фреймворков и библиотек.
+A simple to-do list web app built with vanilla JavaScript, HTML, and CSS — no frameworks or libraries.
 
-🔗 [Live Demo](https://tatianaander.github.io/ToDoList/src/index.html)
+🔗 [Live Demo](https://tatianaander.github.io/ToDoList/)
 
-## Возможности
+## Features
 
-- Добавление новой задачи по названию
-- Поиск задачи по тексту
-- Отметка задачи как выполненной (чекбокс)
-- Удаление отдельной задачи
-- Удаление всех задач сразу («Delete All»)
-- Счётчик общего количества задач
-- Сохранение задач между перезагрузками страницы
+- Add a new task by title
+- Search tasks by text
+- Mark a task as completed (checkbox)
+- Delete a single task
+- Delete all tasks at once ("Delete All")
+- Total task counter
+- Tasks persist across page reloads
 
-## Технологии
+## Technologies
 
 - HTML5
 - CSS3
 - JavaScript (Vanilla, ES6+)
 
-## Структура проекта
+## Project Structure
 
-\`\`\`
-src/
+```
+ToDoList/
 ├── index.html
 ├── main.js
 ├── styles/
 └── icons/
-\`\`\`
+```
 
-## Запуск локально
+## Running Locally
 
-\`\`\`bash
+```bash
 git clone https://github.com/TatianaAnder/ToDoList.git
-cd ToDoList/src
-\`\`\`
+cd ToDoList
+```
 
-Откройте `index.html` в браузере — никаких зависимостей не требуется.
+Open `index.html` in your browser — no dependencies required.
 
 ---
-
 Built by Tatiana Anderson
